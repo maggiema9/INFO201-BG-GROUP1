@@ -1,7 +1,7 @@
 <h1>Topic: The Effects of Climate Change on Sea Level Rise </h1>
 
 <h2>Data and Audience </h2>
-- What is the dataset you’ll be working with? Please include background on who     collected the data, where you accessed it, and any additional information we     should know about how this data came to be. 
+What is the dataset you’ll be working with? Please include background on who     collected the data, where you accessed it, and any additional information we     should know about how this data came to be. 
 
 - The first set of [data](https://climate.nasa.gov/vital-signs/sea-level/#:~:text=Global%20sea%20levels%20are%20rising,of%20seawater%20as%20it%20warms.) we are looking at is from NASA; they are a very reputable source when it comes to earth/science matters
   - considered a global leader when it comes to the study of climate 
