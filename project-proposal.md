@@ -15,7 +15,7 @@ What is the dataset you’ll be working with? Please include background on who  
       - favor proposals to shift away from the use of fossil fuels
       
 - extra useful links:
-  - climate.gov (has more simple [charts](https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level#:~:text=Global%20average%20sea%20level%20has,3.8%20inches)%20above%201993%20levels.))
+  - climate.gov (has more simple [charts](https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level#:~:text=Global%20average%20sea%20level%20has,3.8%20inches)%20above%201993%20levels.) )
     - excel file of world sea level   
   - [rise](https://datacatalog.worldbank.org/search/dataset/0041449/World-Sea-Level-Rise-Dataset)
     - land
@@ -35,11 +35,11 @@ What is the dataset you’ll be working with? Please include background on who  
 the audience should be able to answer: 
   1. what causes sea level rise? 
   2. what is the projection of sea level rise in the next few years/decades?
-  3. 
+  3. how does see level rise affect people?
   
 <h1>technical description</h1>
 How will you be reading in your data (i.e., are you using an API, or is it a    static .csv/.json file)?
-- csv file
+  - csv file
 
 What types of data-wrangling (reshaping, reformatting, etc.) will you need to   do to your data?
   - compiling together 
