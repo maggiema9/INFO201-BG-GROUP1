@@ -39,7 +39,7 @@ the audience should be able to answer:
   
 <h1>technical description</h1>
 How will you be reading in your data (i.e., are you using an API, or is it a    static .csv/.json file)?
-- csv file
+  - csv file
 
 What types of data-wrangling (reshaping, reformatting, etc.) will you need to   do to your data?
   - compiling together 
@@ -51,7 +51,7 @@ What (major/new) libraries will be using in this project (no need to list       
 What questions, if any, will you be answering with statistical                  analysis/machine learning?
   - Future projections
 
-- What major challenges do you anticipate?
+What major challenges do you anticipate?
   - Deciding which data sets and what data is most important to show
   - Compiling and sorting data
   - Projection calculations
