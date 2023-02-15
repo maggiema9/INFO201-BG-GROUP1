@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-**topic: the effects of climate change on sea level rise** 
+<h1>**topic: the effects of climate change on sea level rise** </h1>
 
-**Data and Audience** 
+<h2>**Data and Audience** </h2>
 The first set of [data](https://climate.nasa.gov/vital-signs/sea-level/#:~:text=Global%20sea%20levels%20are%20rising,of%20seawater%20as%20it%20warms.) we are looking at is from NASA; they are a very reputable source when it comes to earth/science matters
   - considered a global leader when it comes to the study of climate [change](https://climate.nasa.gov/nasa_science/history/#:~:text=NASA%20is%20a%20global%20leader,a%20broad%20climate%20research%20program.)
   
