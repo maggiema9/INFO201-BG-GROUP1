@@ -15,7 +15,7 @@ What is the dataset you’ll be working with? Please include background on who  
       - favor proposals to shift away from the use of fossil fuels
       
 - extra useful links:
-  - climate.gov (has more simple [charts](https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level#:~:text=Global%20average%20sea%20level%20has,3.8%20inches)%20above%201993%20levels.) )
+  - climate.gov (has more simple [charts](https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level#:~:text=Global%20average%20sea%20level%20has,3.8%20inches) )
     - excel file of world sea level   
   - [rise](https://datacatalog.worldbank.org/search/dataset/0041449/World-Sea-Level-Rise-Dataset)
     - land
