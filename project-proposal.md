@@ -39,6 +39,7 @@ the audience should be able to answer:
   
 <h1>technical description</h1>
 How will you be reading in your data (i.e., are you using an API, or is it a    static .csv/.json file)?
+
   - csv file
 
 What types of data-wrangling (reshaping, reformatting, etc.) will you need to   do to your data?
@@ -47,6 +48,7 @@ What types of data-wrangling (reshaping, reformatting, etc.) will you need to   
 
 What (major/new) libraries will be using in this project (no need to list       common libraries that are used in many projects such as dplyr)
   - ggplot
+  - knitr
 
 What questions, if any, will you be answering with statistical                  analysis/machine learning?
   - Future projections
