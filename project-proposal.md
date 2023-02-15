@@ -15,7 +15,7 @@ What is the dataset you’ll be working with? Please include background on who  
       - favor proposals to shift away from the use of fossil fuels
       
 - extra useful links:
-  - climate.gov (have more simple [charts](https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level#:~:text=Global%20average%20sea%20level%20has,3.8%20inches)%20above%201993%20levels.))
+  - climate.gov (has more simple [charts](https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level#:~:text=Global%20average%20sea%20level%20has,3.8%20inches)%20above%201993%20levels.))
     - excel file of world sea level   
   - [rise](https://datacatalog.worldbank.org/search/dataset/0041449/World-Sea-Level-Rise-Dataset)
     - land
@@ -38,22 +38,21 @@ the audience should be able to answer:
   3. 
   
 <h1>technical description</h1>
-- How will you be reading in your data (i.e., are you using an API, or is it a    static .csv/.json file)?
-  - .csv file
+How will you be reading in your data (i.e., are you using an API, or is it a    static .csv/.json file)?
+- .csv file
 
-- What types of data-wrangling (reshaping, reformatting, etc.) will you need to   do to your data?
+What types of data-wrangling (reshaping, reformatting, etc.) will you need to   do to your data?
   - compiling together 
   - filtering for what's important 
 
-- What (major/new) libraries will be using in this project (no need to list       common libraries that are used in many projects such as dplyr)
-  - 
+What (major/new) libraries will be using in this project (no need to list       common libraries that are used in many projects such as dplyr)
+  - ggplot
 
-- What questions, if any, will you be answering with statistical                  analysis/machine learning?
-  - 
+What questions, if any, will you be answering with statistical                  analysis/machine learning?
+  - Future projections
 
 - What major challenges do you anticipate?
   - Deciding which data sets and what data is most important to show
   - Compiling and sorting data
   - Projection calculations
 
->>>>>>> origin/main
