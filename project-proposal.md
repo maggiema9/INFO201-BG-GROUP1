@@ -7,7 +7,7 @@ What is the dataset you’ll be working with? Please include background on who  
   - considered a global leader when it comes to the study of climate 
 - [change](https://climate.nasa.gov/nasa_science/history/#:~:text=NASA%20is%20a%20global%20leader,a%20broad%20climate%20research%20program.)
   
-- data that explains WHY sea level rise occurs, rather than just [numbers]("GMSL_TPJAOS_5.1_199209_202212.csv")
+- data that explains WHY sea level rise occurs, rather than just [numbers]("Data/GMSL_TPJAOS_5.1_199209_202212.csv")
 
 - when it comes to the audience, [pew research center](https://www.pewresearch.org/fact-tank/2021/05/26/key-findings-how-americans-attitudes-about-climate-change-differ-by-generation-party-and-other-factors/) finds that there is a difference in a sense of urgengy within generations
   - pew research provides factual and unbiased news 
