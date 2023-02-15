@@ -39,7 +39,7 @@ the audience should be able to answer:
   
 <h1>technical description</h1>
 How will you be reading in your data (i.e., are you using an API, or is it a    static .csv/.json file)?
-- .csv file
+- csv file
 
 What types of data-wrangling (reshaping, reformatting, etc.) will you need to   do to your data?
   - compiling together 
