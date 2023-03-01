@@ -37,23 +37,27 @@ the audience should be able to answer:
   2. what is the projection of sea level rise in the next few years/decades?
   3. how does see level rise affect people?
   
-<h1>technical description</h1>
+<h1>Technical description</h1>
 How will you be reading in your data (i.e., are you using an API, or is it a    static .csv/.json file)?
 
   - csv file
 
 What types of data-wrangling (reshaping, reformatting, etc.) will you need to   do to your data?
+
   - compiling together 
   - filtering for what's important 
 
 What (major/new) libraries will be using in this project (no need to list       common libraries that are used in many projects such as dplyr)
+
   - ggplot
   - knitr
 
 What questions, if any, will you be answering with statistical                  analysis/machine learning?
+
   - Future projections
 
 What major challenges do you anticipate?
+
   - Deciding which data sets and what data is most important to show
   - Compiling and sorting data
   - Projection calculations
