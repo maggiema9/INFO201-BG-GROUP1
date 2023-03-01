@@ -1,0 +1,85 @@
+Country Code,Country Name,Region,Total GDP (million USD),Impacted GDP (in million USD) - 1 meter,Impacted GDP (in million USD) - 2 meter,Impacted GDP (in million USD) - 3 meter,Impacted GDP (in million USD) - 4 meter,Impacted GDP (in million USD) - 5 meter,% of Country GDP Impacted - 1 meter,% of Country GDP Impacted - 2 meter,% of Country GDP Impacted - 3 meter,% of Country GDP Impacted - 4 meter,% of Country GDP Impacted - 5 meter
+ARG,Argentina,Latin America / Caribbean,439897,1362,3266,6058,8090,10036,0.31,0.74,1.38,1.84,2.28
+BHS,Bahamas,Latin America / Caribbean,4962,235,397,721,927,1406,4.74,8.00,14.53,18.68,28.34
+BLZ,Belize,Latin America / Caribbean,1312,27,46,73,104,131,2.06,3.51,5.56,7.93,9.98
+BRA,Brazil,Latin America / Caribbean,1233633,7134,12432,15036,21623,30176,0.58,1.01,1.22,1.75,2.45
+CHL,Chile,Latin America / Caribbean,135982,113,151,244,301,301,0.08,0.11,0.18,0.22,0.22
+COL,Colombia,Latin America / Caribbean,296427,594,1500,2254,3103,3602,0.20,0.51,0.76,1.05,1.22
+CRI,Costa Rica,Latin America / Caribbean,38381,43,67,113,149,217,0.11,0.17,0.29,0.39,0.57
+CUB,Cuba,Latin America / Caribbean,19200,86,670,809,999,1236,0.45,3.49,4.21,5.20,6.44
+DOM,Dominican Republic,Latin America / Caribbean,57877,88,188,317,728,822,0.15,0.32,0.55,1.26,1.42
+ECU,Ecuador,Latin America / Caribbean,40046,1065,1356,1751,2241,2798,2.66,3.39,4.37,5.60,6.99
+SLV,El Salvador,Latin America / Caribbean,32878,93,100,198,248,323,0.28,0.30,0.60,0.75,0.98
+GUF,French Guiana,Latin America / Caribbean,1951,59,60,65,296,298,3.02,3.08,3.33,15.17,15.27
+GTM,Guatemala,Latin America / Caribbean,50422,10,16,34,47,94,0.02,0.03,0.07,0.09,0.19
+GUY,Guyana,Latin America / Caribbean,3469,161,283,502,702,789,4.64,8.16,14.47,20.24,22.74
+HTI,Haiti,Latin America / Caribbean,15299,12,27,46,139,178,0.08,0.18,0.30,0.91,1.16
+HND,Honduras,Latin America / Caribbean,18159,15,40,73,143,228,0.08,0.22,0.40,0.79,1.26
+JAM,Jamaica,Latin America / Caribbean,9226,62,76,107,152,220,0.67,0.82,1.16,1.65,2.38
+MEX,Mexico,Latin America / Caribbean,839150,4565,6991,10813,14222,18605,0.54,0.83,1.29,1.69,2.22
+SUR,Suriname,Latin America / Caribbean,1480,95,178,294,337,509,6.42,12.03,19.86,22.77,34.39
+NIC,Nicaragua,Latin America / Caribbean,13100,13,40,63,93,123,0.10,0.31,0.48,0.71,0.94
+PER,Peru,Latin America / Caribbean,120087,774,844,1240,1597,1631,0.64,0.70,1.03,1.33,1.36
+PAN,Panama,Latin America / Caribbean,16653,142,179,285,361,436,0.85,1.07,1.71,2.17,2.62
+PRI,Puerto Rico,Latin America / Caribbean,96388,1473,5522,5522,7492,8921,1.53,5.73,5.73,7.77,9.26
+URY,Uruguay,Latin America / Caribbean,28887,428,802,924,957,1017,1.48,2.78,3.20,3.31,3.52
+VEN,Venezuela,Latin America / Caribbean,134865,1094,1395,2027,2524,2964,0.81,1.03,1.50,1.87,2.20
+DZA,Algeria,Middle East / North Africa,186902,976,1140,1210,2059,2196,0.52,0.61,0.65,1.10,1.17
+EGY,Egypt,Middle East / North Africa,222186,14301,21198,26952,31223,36214,6.44,9.54,12.13,14.05,16.30
+IRN,Iran,Middle East / North Africa,364399,859,1461,2145,2868,3645,0.24,0.40,0.59,0.79,1.00
+KWT,Kuwait,Middle East / North Africa,37262,428,632,677,1147,1374,1.15,1.70,1.82,3.08,3.69
+LBY,Libya,Middle East / North Africa,45400,696,1016,1094,1215,1299,1.53,2.24,2.41,2.68,2.86
+MAR,Morocco,Middle East / North Africa,97991,141,259,470,535,609,0.14,0.26,0.48,0.55,0.62
+OMN,Oman,Middle East / North Africa,29018,244,263,396,492,605,0.84,0.91,1.36,1.70,2.08
+QAT,Qatar,Middle East / North Africa,15100,274,441,651,999,1476,1.81,2.92,4.31,6.62,9.77
+SAU,Saudi Arabia,Middle East / North Africa,278922,417,614,826,1075,1402,0.15,0.22,0.30,0.39,0.50
+ARE,United Arab Emirates,Middle East / North Africa,54000,1087,1586,1751,1932,2364,2.01,2.94,3.24,3.58,4.38
+TUN,Tunisia,Middle East / North Africa,58574,1718,1965,2855,3301,4260,2.93,3.35,4.87,5.64,7.27
+ESH,Western Sahara,Middle East / North Africa,762,1,1,2,2,3,0.13,0.13,0.26,0.26,0.39
+YEM,Yemen,Middle East / North Africa,13954,69,69,83,99,114,0.49,0.49,0.59,0.71,0.82
+AGO,Angola,Sub-Saharan Africa,27653,48,115,209,385,476,0.17,0.42,0.76,1.39,1.72
+BEN,Benin,Sub-Saharan Africa,5962,336,550,880,931,976,5.64,9.23,14.76,15.62,16.37
+COG,"Congo, Rep.",Sub-Saharan Africa,2881,0,3,3,7,17,0.00,0.10,0.10,0.24,0.59
+COD,"Congo, Dem. Rep.",Sub-Saharan Africa,37331,9,17,17,17,17,0.02,0.05,0.05,0.05,0.05
+CMR,Cameroon,Sub-Saharan Africa,24386,19,19,47,220,288,0.08,0.08,0.19,0.90,1.18
+GNQ,Equatorial Guinea,Sub-Saharan Africa,1487,5,5,11,19,19,0.34,0.34,0.74,1.28,1.28
+ETH,Ethiopia,Sub-Saharan Africa,960,0,1,2,2,2,0.00,0.10,0.21,0.21,0.21
+GMB,"Gambia, The",Sub-Saharan Africa,49241,173,181,181,181,189,0.35,0.37,0.37,0.37,0.38
+GAB,Gabon,Sub-Saharan Africa,2567,19,56,195,375,448,0.74,2.18,7.60,14.61,17.45
+GHA,Ghana,Sub-Saharan Africa,7385,9,12,31,55,81,0.12,0.16,0.42,0.74,1.10
+GIN,Guinea,Sub-Saharan Africa,42213,356,458,577,644,950,0.84,1.08,1.37,1.53,2.25
+CIV,Ivory Coast,Sub-Saharan Africa,14174,46,364,469,642,911,0.32,2.57,3.31,4.53,6.43
+KEN,Kenya,Sub-Saharan Africa,24159,267,280,292,526,772,1.11,1.16,1.21,2.18,3.20
+LBR,Liberia,Sub-Saharan Africa,29623,40,44,89,98,135,0.14,0.15,0.30,0.33,0.46
+MDG,Madagascar,Sub-Saharan Africa,3350,36,36,42,60,60,1.07,1.07,1.25,1.79,1.79
+MRT,Mauritania,Sub-Saharan Africa,12577,29,58,84,114,162,0.23,0.46,0.67,0.91,1.29
+MOZ,Mozambique,Sub-Saharan Africa,4972,465,718,869,1081,1297,9.35,14.44,17.48,21.74,26.09
+NGA,Nigeria,Sub-Saharan Africa,17660,47,84,164,1127,1257,0.27,0.48,0.93,6.38,7.12
+GNB,Guinea-Bissau,Sub-Saharan Africa,109412,250,510,1734,2083,3027,0.23,0.47,1.58,1.90,2.77
+ZAF,South Africa,Sub-Saharan Africa,1150,5,11,21,128,160,0.43,0.96,1.83,11.13,13.91
+SEN,Senegal,Sub-Saharan Africa,470466,35,35,177,836,889,0.01,0.01,0.04,0.18,0.19
+SLE,Sierra Leone,Sub-Saharan Africa,13848,158,916,1124,1348,1503,1.14,6.61,8.12,9.73,10.85
+SOM,Somalia,Sub-Saharan Africa,2285,4,11,22,32,50,0.18,0.48,0.96,1.40,2.19
+SDN,Sudan,Sub-Saharan Africa,4300,4,7,8,10,17,0.09,0.16,0.19,0.23,0.40
+TGO,Togo,Sub-Saharan Africa,62128,15,20,36,61,97,0.02,0.03,0.06,0.10,0.16
+STP,Sao Tome and Principe,Sub-Saharan Africa,7493,11,17,17,45,51,0.15,0.23,0.23,0.60,0.68
+TZA,"Tanzania, United Republic of",Sub-Saharan Africa,178,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00
+NAM,Namibia,Sub-Saharan Africa,17035,11,17,19,45,51,0.06,0.10,0.11,0.26,0.30
+DJI,Djibouti,Sub-Saharan Africa,12417,4,4,4,4,7,0.03,0.03,0.03,0.03,0.06
+MMR,Myanmar (Burma),East Asia,63700,613,1257,2529,4562,7542,0.96,1.97,3.97,7.16,11.84
+BRN,Brunei,East Asia,5900,0,0,0,6,179,0.00,0.00,0.00,0.10,3.03
+KHM,Cambodia,East Asia,21106,223,552,1045,1627,2378,1.06,2.62,4.95,7.71,11.27
+CHN,China,East Asia,4724163,113390,177883,263878,389835,510437,2.40,3.77,5.59,8.25,10.80
+IDN,Indonesia,East Asia,613299,11558,18776,30278,43271,49768,1.88,3.06,4.94,7.06,8.11
+PRK,North Korea,East Asia,22000,22,37,92,175,679,0.10,0.17,0.42,0.80,3.09
+KOR,South Korea,East Asia,691772,1468,2846,4130,6198,8803,0.21,0.41,0.60,0.90,1.27
+MYS,Malaysia,East Asia,211738,1165,2534,3716,7356,11958,0.55,1.20,1.75,3.47,5.65
+PNG,Papua New Guinea,East Asia,13927,8,12,16,29,49,0.06,0.09,0.11,0.21,0.35
+PHL,Philippines,East Asia,290338,1805,4104,6165,9845,12155,0.62,1.41,2.12,3.39,4.19
+THA,Thailand,East Asia,378476,5372,10411,28230,61179,85669,1.42,2.75,7.46,16.16,22.64
+TWN,Taiwan China,East Asia,386000,6999,11616,16631,21065,27524,1.81,3.01,4.31,5.46,7.13
+VNM,Vietnam,East Asia,154787,15805,25522,37419,47509,56035,10.21,16.49,24.17,30.69,36.20
+BGD,Bangladesh,South Asia,202087,1896,3387,7768,14458,22790,0.94,1.68,3.84,7.15,11.28
+LKA,Sri Lanka,South Asia,62726,284,503,987,1728,2343,0.45,0.80,1.57,2.75,3.74
+IND,India,South Asia,2772730,16223,27414,43473,57483,72263,0.59,0.99,1.57,2.07,2.61
+PAK,Pakistan,South Asia,258024,250,457,845,1196,1524,0.10,0.18,0.33,0.46,0.59
