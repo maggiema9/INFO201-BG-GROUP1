@@ -9,6 +9,7 @@
 
 library(shiny)
 library(tidyverse)
+library(reshape2)
 
 SLR <- read_delim("Data/GMSL_TPJAOS_5.1_199209_202212.csv")
 landimpact <- read_delim("Data/Total Land Impacted by SLR.csv")
@@ -86,6 +87,22 @@ ui <- fluidPage(
                 mainPanel(
                   plotOutput("Plot"))
               )
+     ),
+    tabPanel("Conclusion",
+             # Application title
+             titlePanel("Plot of General Mean Sea Level Rise Variation by Year"),
+             
+             # Sidebar with a slider input for number of bins 
+             sidebarLayout(
+               sidebarPanel(
+                 checkboxInput("trendline", "Add trend line", value = TRUE)
+               ),
+               
+               # Show a plot of the generated distribution
+               mainPanel(
+                 plotOutput("graph2")
+               )
+             )
      )
   )
 )
@@ -115,6 +132,15 @@ server <- function(input, output) {
       ggplot(aes(x=variable, y=value, group=Region, color=factor(Region)))+
       geom_point()+
       labs(x="Sea Lever Rise", y="Country Population Impacted", color="Region")
+  })
+  
+  output$graph2 <- renderPlot({
+    SLR %>%
+      ggplot(aes(x = Year, y = GMSLV_in_mm)) +
+      geom_point() +
+      if (input$trendline) {
+        stat_smooth(method = "lm")
+      }
   })
 }
 
