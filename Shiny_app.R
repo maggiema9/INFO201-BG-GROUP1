@@ -12,6 +12,18 @@ library(tidyverse)
 
 SLR <- read_delim("Data/GMSL_TPJAOS_5.1_199209_202212.csv")
 landimpact <- read_delim("Data/Total Land Impacted by SLR.csv")
+population_impacts <- read_delim("Data/Population Impacted by SLR.csv")
+renamed <- population_impacts %>% 
+  rename("1m"=`% of Country Population Impacted - 1 meter`) %>% 
+  rename("2m"=`% of Country Population Impacted - 2 meter`) %>% 
+  rename("3m"=`% of Country Population Impacted - 3 meter`) %>% 
+  rename("4m"=`% of Country Population Impacted - 4 meter`) %>% 
+  rename("5m"=`% of Country Population Impacted - 5 meter`)
+
+population_impacted <- renamed %>% 
+  select(`Country Code`, `Country Name`, `Region`, `Population`, `1m`, `2m`, `3m`, `4m`, `5m`) %>% 
+  melt(id=c("Country Code", "Country Name", "Region", "Population"))
+
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -57,9 +69,27 @@ ui <- fluidPage(
               tableOutput("table")
             )
           )     
-    )
+    ),
+  
+     tabPanel("Scatter Plot",
+              titlePanel("Population"),
+              sidebarLayout(
+                sidebarPanel(
+                  checkboxGroupInput("Region", label="Choose Region",
+                                     choices=c("Latin America / Caribbean", "Middle East / North Africa", "Sub-Saharan Africa", "East Asia", "South Asia"),
+                                     selected=c("Latin America / Caribbean", "Middle East / North Africa", "Sub-Saharan Africa", "East Asia", "South Asia")),
+                  
+                  checkboxGroupInput("Sea_Level_Rise", label="Choose Sea Level Range",
+                                     choices=c("1m", "2m", "3m", "4m", "5m"),
+                                     selected=c("1m", "2m", "3m", "4m", "5m"))
+                ),
+                mainPanel(
+                  plotOutput("Plot"))
+              )
+     )
+  )
 )
-)
+
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
@@ -77,6 +107,15 @@ server <- function(input, output) {
     data_subset
   })
   
+  output$Plot <- renderPlot({
+    population_impacted %>% 
+      filter(Region %in% input$Region) %>%
+      filter(variable %in% input$Sea_Level_Rise) %>% 
+      group_by(Region) %>% 
+      ggplot(aes(x=variable, y=value, group=Region, color=factor(Region)))+
+      geom_point()+
+      labs(x="Sea Lever Rise", y="Country Population Impacted", color="Region")
+  })
 }
 
 # Run the application 
