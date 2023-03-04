@@ -46,6 +46,9 @@ ui <- fluidPage(
             # Sidebar with a slider input for number of bins 
             sidebarLayout(
               sidebarPanel(
+                checkboxGroupInput("columns", "Select columns to display:",
+                                   choices = colnames(landimpact),
+                                   selected = colnames(landimpact)),
                 
             ),
              
@@ -66,14 +69,12 @@ server <- function(input, output) {
       ggplot(aes(x = Year, y = GMSLV_in_mm)) +
       geom_line() 
   })
+  
   output$table <- renderTable({
-    landimpact %>%
-      select("country name", 
-             "% of Country Area Impacted - 1 meter", 
-             "% of Country Area Impacted - 2 meter",
-             "% of Country Area Impacted - 3 meter",
-             "% of Country Area Impacted - 4 meter",
-             "% of Country Area Impacted - 5 meter")
+    data_subset <- landimpact %>%
+      select(input$columns)
+    
+    data_subset
   })
   
 }
