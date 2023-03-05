@@ -61,6 +61,11 @@ ui <- fluidPage(
     tabPanel("Plot", 
              # Application title
              titlePanel("Plot of General Mean Sea Level Rise Variation by Year"),
+             p("This plot is a visual representation of the change in global average 
+               sea level rise as function of time. The year range can be adjusted 
+               using the slider function. Analysis of this plot shows that, although 
+               sea levels can fluctuate up and down from year to year, overall sea 
+               levels have risen consistently over the past 30 years."),
              
              # Sidebar with a slider input for number of bins 
              sidebarLayout(
@@ -81,7 +86,10 @@ ui <- fluidPage(
     tabPanel("Table", 
             # Application title
             titlePanel("Table of Affected Land as a Result of SLR"),
-           
+           p("The default view of this table allows users to observe countries’ 
+             land impacted by SLR in both percentage and square kilometers. 
+             The checkbox widget allows for a more summarized view of the data."),
+            
             # Sidebar with a checkbox input for number of bins 
             sidebarLayout(
               sidebarPanel(
@@ -100,6 +108,11 @@ ui <- fluidPage(
   
      tabPanel("Scatter Plot",
               titlePanel("Population"),
+              p("The graph shows how many people are affected for every one meter 
+                rise in sea level. Each point represents a country and is colored 
+                by region. The region and the extent of sea level rise can be 
+                selected by adjusting the widget on the right."),
+              
               sidebarLayout(
                 sidebarPanel(
                   checkboxGroupInput("Region", label="Choose Region",
@@ -204,7 +217,7 @@ server <- function(input, output) {
       group_by(Region) %>% 
       ggplot(aes(x=variable, y=value, group=Region, color=factor(Region)))+
       geom_point()+
-      labs(x="Sea Lever Rise", y="Country Population Impacted", color="Region")
+      labs(x="Sea Level Rise", y="Country Population Impacted", color="Region")
   })
   
   ## making graph 2
