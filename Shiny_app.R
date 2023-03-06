@@ -34,7 +34,7 @@ ui <- fluidPage(
     tabPanel("Summary",
              titlePanel("The Effects of Climate Change on Sea Level Rise"),
              #image
-             tags$img(src ="Data/Sea_Level_Rise.png", width = "959px", height = "478px"),
+             tags$img(src ="Sea_Level_Rise.png", width = "959px", height = "478px"),
                
              p("Climate change has affected our world in countless ways, one of the 
              most prominent ways being rising sea levels. Our project's goals 
