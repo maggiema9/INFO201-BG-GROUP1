@@ -198,7 +198,13 @@ server <- function(input, output) {
     SLR %>%
       filter(Year >= input$Year_range[1], Year <= input$Year_range[2]) %>%
       ggplot(aes(x = Year, y = GMSLV_in_mm)) +
-      geom_line() 
+      geom_line() +
+      labs(x="Year", y="Global Average Sea Level Rise in milimeters", title="Mean Sea Level Rise by Year")+
+      theme(plot.title=element_text(size = 20),
+            axis.title.x=element_text(size = 16),
+            axis.title.y=element_text(size = 16),
+            axis.text.x = element_text(size = 16),
+            axis.text.y = element_text(size = 16))
   })
   
   ## making data table 
@@ -217,7 +223,13 @@ server <- function(input, output) {
       group_by(Region) %>% 
       ggplot(aes(x=variable, y=value, group=Region, color=factor(Region)))+
       geom_point()+
-      labs(x="Sea Level Rise", y="Country Population Impacted", color="Region")
+      labs(x="Sea Level Rise", y="Country Population Impacted", color="Region", title="Country Population Impacted by Sea Level Rise")+
+      theme(plot.title=element_text(size = 20),
+            axis.title.x=element_text(size = 16),
+            axis.title.y=element_text(size = 16),
+            axis.text.x = element_text(size = 16),
+            axis.text.y = element_text(size = 16),
+            legend.text = element_text(size=14))
   })
   
   ## making graph 2
@@ -225,6 +237,12 @@ server <- function(input, output) {
     SLR %>%
       ggplot(aes(x = Year, y = GMSLV_in_mm)) +
       geom_point() +
+      labs(x="Year", y="Global Average Sea Level Rise in milimeters", title="Mean Sea Level Rise by Year")+
+      theme(plot.title=element_text(size = 20),
+            axis.title.x=element_text(size = 16),
+            axis.title.y=element_text(size = 16),
+            axis.text.x = element_text(size = 16),
+            axis.text.y = element_text(size = 16))+
       if (input$trendline) {
         stat_smooth(method = "lm")
       }

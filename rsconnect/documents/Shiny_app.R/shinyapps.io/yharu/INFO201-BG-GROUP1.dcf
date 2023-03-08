@@ -5,9 +5,9 @@ account: yharu
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8483338
-bundleId: 6923449
+bundleId: 6933503
 url: https://yharu.shinyapps.io/INFO201-BG-GROUP1/
-when: 1678143985.98656
-lastSyncTime: 1678143985.98658
+when: 1678316664.75337
+lastSyncTime: 1678316664.7534
 asMultiple: FALSE
 asStatic: FALSE
